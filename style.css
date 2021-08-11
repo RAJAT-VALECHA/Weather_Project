@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100px;
+  background-color: #CAC180;
+}
+#sf{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 75px;
+}
+#temp{
+  text-align: center;
+
+}
+#temp #unit{
+  font-family: fantasy;
+  font-size: 2.5rem;
+  color: #4169e1;
+}
+#temp #value{
+  font-family: fantasy;
+  font-size: 3rem;
+  color: #4c72dc;
+}
+#climate{
+  font-family: fantasy;
+  font-size: 3.5rem;
+  color: #4c72dc;
+  text-align:center;
+}
+#location{
+  font-family: fantasy;
+  font-size: 3.5rem;
+  color: #4c72dc;
+  text-align:center;
+}
+#icon{
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+main{
+  padding: 20px;
+  margin-top: 10px;
+  background-color: #95aeb8;
+  border-radius: 15px;
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#button{
+  color: white ;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #b0b89c;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  border: 2px solid ;
+  display: inline-block;
+  transition: all 0.4 ease 0s;
+}
+#button:hover{
+  color: #ffffff;
+  background: #333120;
+  border-color: #cac180;
+  transition: all 0.4s ease 0s;
+}
+#search-input{
+  width: 300px;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 8px 0;
+  padding: 8px 0;
+  border-bottom: 3px solid #333120;
+  color: white;
+  outline: none;
+  background: none;
+
+}
+input{
+  border: none;
+}
